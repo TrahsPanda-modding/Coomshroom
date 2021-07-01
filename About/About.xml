@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+<packageId>TrahsPanda.Coomshrooms</packageId>
+	<name>Coomshrooms</name>
+	<author>TrahsPanda</author>
+	<supportedVersions>
+		<li>1.2</li>
+	</supportedVersions>
+	<description>Commission for Hyo. Adds mushrooms grown from... Coom.</description>	
+</ModMetaData>

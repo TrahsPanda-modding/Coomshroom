@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Defs>
+
+  <ThingDef>
+    <defName>TRAHS_Plant_Coomshroom</defName>
+    <label>Coomshroom</label>
+    <description>A fragile mushroom grown from the colony's "used" rags, socks, and towels. While it can grow without sunlight, eating this raw really breaks down a person's will.\n\nThe Coomshroom is incrediby dry and fragile on the outside, but has a slimy inside. It is highly recommended to cook it in order to negate it's horrible effect.</description>
+    <thingClass>Coomshroom.Plant_Coomshroom</thingClass>
+    <statBases>
+      <MaxHitPoints>30</MaxHitPoints>
+      <Nutrition>0.2</Nutrition>
+      <Flammability>0.9</Flammability>
+    </statBases>
+    <graphicData>
+      <texPath>Things/Plant/Devilstrand</texPath> <!--Temporary-->
+      <graphicClass>Graphic_Random</graphicClass>
+      <shaderType>CutoutPlant</shaderType>
+    </graphicData>
+    <ingestible>
+      <foodType>Plant</foodType>
+      <preferability>RawBad</preferability>
+    </ingestible>
+    <selectable>true</selectable>
+    <pathCost>14</pathCost>
+    <category>Plant</category>
+    <altitudeLayer>LowPlant</altitudeLayer>
+    <useHitPoints>True</useHitPoints>
+    <tickerType>Long</tickerType>
+    <neverMultiSelect>True</neverMultiSelect>
+    <drawerType>MapMeshOnly</drawerType>
+    <pathCostIgnoreRepeat>false</pathCostIgnoreRepeat>
+    <plant>
+        <sowTags>
+            <li>TRAHS_Coombox</li>
+            <li>Ground</li> <!--Temporary-->
+        </sowTags>
+        <harvestedThingDef>TRAHS_Coomshroom</harvestedThingDef>
+        <harvestYield>8</harvestYield>
+        <harvestWork>200</harvestWork>
+        <growDays>3</growDays>
+        <fertilityMin>0.0</fertilityMin>
+        <fertilitySensitivity>0.0</fertilitySensitivity>
+        <neverBlightable>true</neverBlightable>
+        <dieIfNoSunlight>false</dieIfNoSunlight>
+        <maxMeshCount>4</maxMeshCount>
+        <sowMinSkill>0</sowMinSkill>
+        <visualSizeRange>0.6~1</visualSizeRange>
+    </plant>
+  </ThingDef>
+
+</Defs>
