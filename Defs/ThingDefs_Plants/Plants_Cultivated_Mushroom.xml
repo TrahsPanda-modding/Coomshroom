@@ -5,7 +5,7 @@
   <ThingDef>
     <defName>TRAHS_Plant_Coomshroom</defName>
     <label>Coomshroom</label>
-    <description>A fragile mushroom grown from the colony's "used" rags, socks, and towels. While it can grow without sunlight, eating this raw really breaks down a person's will.\n\nThe Coomshroom is incrediby dry and fragile on the outside, but has a slimy inside. It is highly recommended to cook it in order to negate it's horrible effect.</description>
+    <description>A fragile mushroom grown from the colony's "used" rags, socks, and towels. While it can grow without sunlight, eating this raw really breaks down a person's will.\n\nThe Coomshroom is incredibly dry and fragile on the outside, but has a slimy inside. It is highly recommended to cook it in order to negate its horrible taste.</description>
     <thingClass>Coomshroom.Plant_Coomshroom</thingClass>
     <statBases>
       <MaxHitPoints>30</MaxHitPoints>
@@ -13,7 +13,7 @@
       <Flammability>0.9</Flammability>
     </statBases>
     <graphicData>
-      <texPath>Things/Plant/Devilstrand</texPath> <!--Temporary-->
+      <texPath>TRAHS/Things/Plant/Coomshroom</texPath>
       <graphicClass>Graphic_Random</graphicClass>
       <shaderType>CutoutPlant</shaderType>
     </graphicData>
@@ -33,7 +33,7 @@
     <plant>
         <sowTags>
             <li>TRAHS_Coombox</li>
-            <li>Ground</li> <!--Temporary-->
+            <li>Ground</li>
         </sowTags>
         <harvestedThingDef>TRAHS_Coomshroom</harvestedThingDef>
         <harvestYield>8</harvestYield>
@@ -45,7 +45,9 @@
         <dieIfNoSunlight>false</dieIfNoSunlight>
         <maxMeshCount>4</maxMeshCount>
         <sowMinSkill>0</sowMinSkill>
-        <visualSizeRange>0.6~1</visualSizeRange>
+        <sowWork>300</sowWork> <!-- it takes time to "sow" your seeds ;)-->
+        <topWindExposure>0.0</topWindExposure>
+        <visualSizeRange>0.3~0.6</visualSizeRange>
     </plant>
   </ThingDef>
 
