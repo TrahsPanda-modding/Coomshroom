@@ -7,6 +7,7 @@ namespace Coomshroom
 {
     public class Plant_Coomshroom : Plant
     {
+        protected override bool Resting => false;
         public override float GrowthRate
         {
             get

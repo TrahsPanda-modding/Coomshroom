@@ -10,7 +10,7 @@
         <graphicData>
           <texPath>TRAHS/Things/Building/Production/Coombox</texPath>
           <graphicClass>Graphic_Multi</graphicClass>
-          <drawSize>(2,2)</drawSize>
+          <drawSize>(4,4)</drawSize>
         </graphicData>
         <castEdgeShadows>true</castEdgeShadows>
         <altitudeLayer>LowPlant</altitudeLayer>
@@ -27,7 +27,7 @@
           <Flammability>0.85</Flammability>
           <Cleanliness>-10</Cleanliness>
         </statBases>
-        <size>(2,1)</size>
+        <size>(4,1)</size>
         <costList>
           <Steel>100</Steel>
           <ComponentIndustrial>1</ComponentIndustrial>

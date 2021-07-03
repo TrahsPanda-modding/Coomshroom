@@ -48,6 +48,7 @@
         <sowWork>300</sowWork> <!-- it takes time to "sow" your seeds ;)-->
         <topWindExposure>0.0</topWindExposure>
         <visualSizeRange>0.3~0.6</visualSizeRange>
+        <growMinGlow>0.0</growMinGlow>
     </plant>
   </ThingDef>
 
