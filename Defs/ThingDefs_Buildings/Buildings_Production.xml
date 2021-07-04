@@ -5,7 +5,7 @@
     <ThingDef ParentName="BuildingBase">
         <defName>TRAHS_Coombox</defName>
         <label>coombox</label>
-        <description>PLACEHOLDER</description>
+        <description>A repurposed hydroponics basin to store the colony's "used" towels, rags, and socks. It smells horrible, but at least it's the perfect environment to grow Coomshrooms.</description>
         <thingClass>Building_PlantGrower</thingClass>
         <graphicData>
           <texPath>TRAHS/Things/Building/Production/Coombox</texPath>
@@ -25,14 +25,14 @@
           <WorkToBuild>1200</WorkToBuild>
           <MaxHitPoints>80</MaxHitPoints>
           <Flammability>0.85</Flammability>
-          <Cleanliness>-10</Cleanliness>
+          <Cleanliness>-20</Cleanliness>
         </statBases>
         <size>(4,1)</size>
         <costList>
           <Steel>100</Steel>
-          <ComponentIndustrial>1</ComponentIndustrial>
+          <Cloth>40</Cloth>
         </costList>
-        <fertility>2.8</fertility>
+        <fertility>1</fertility>
         <building>
           <defaultPlantToGrow>TRAHS_Plant_Coomshroom</defaultPlantToGrow>
           <sowTag>TRAHS_Coombox</sowTag>

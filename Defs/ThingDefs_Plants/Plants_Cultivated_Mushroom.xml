@@ -5,7 +5,7 @@
   <ThingDef>
     <defName>TRAHS_Plant_Coomshroom</defName>
     <label>Coomshroom</label>
-    <description>A fragile mushroom grown from the colony's "used" rags, socks, and towels. While it can grow without sunlight, eating this raw really breaks down a person's will.\n\nThe Coomshroom is incredibly dry and fragile on the outside, but has a slimy inside. It is highly recommended to cook it in order to negate its horrible taste.</description>
+    <description>A fragile mushroom grown from the colony's "used" rags, socks, and towels. While it can grow without sunlight, eating this raw really breaks down a person's will.\n\nThe Coomshroom's cap is dry and flaky, with a slimy, salty inside. The stem is fragile, but similar to the cap it has a very slimy inside and can actually be smoked for a horrible high. It is highly recommended to cook it in order to negate its horrible taste.</description>
     <thingClass>Coomshroom.Plant_Coomshroom</thingClass>
     <statBases>
       <MaxHitPoints>30</MaxHitPoints>
@@ -35,7 +35,7 @@
             <li>TRAHS_Coombox</li>
             <li>Ground</li>
         </sowTags>
-        <harvestedThingDef>TRAHS_Coomshroom</harvestedThingDef>
+        <harvestedThingDef>TRAHS_RawCoomshroom</harvestedThingDef>
         <harvestYield>8</harvestYield>
         <harvestWork>200</harvestWork>
         <growDays>3</growDays>

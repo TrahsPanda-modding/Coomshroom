@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="PlantFoodRawBase" Name="TRAHS_CoomshroomBase" Abstract="True">
+    <statBases>
+      <Beauty>-8</Beauty>
+      <MaxHitPoints>30</MaxHitPoints>
+    </statBases>
+    <ingestible>
+      <tasteThought>TRAHS_AteRawCoomshroom</tasteThought>
+    </ingestible>
+  </ThingDef>
+
+<!--==================== Coomshroom ====================-->
+
+  <ThingDef ParentName="TRAHS_CoomshroomBase">
+    <defName>TRAHS_RawCoomshroom</defName>
+    <label>raw coomshroom</label>
+    <description>Raw coomshroom.</description>
+    <graphicData>
+      <texPath>TRAHS/Things/Item/Resource/PlantFoodRaw/TRAHS_RawCoomshroom</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>1.1</MarketValue>
+    </statBases>
+    <ingestible>
+      <foodType>VegetableOrFruit</foodType>
+    </ingestible>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>30</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+  </ThingDef>
+
+</Defs>

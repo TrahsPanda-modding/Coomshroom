@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThoughtDef>
+    <defName>TRAHS_AteRawCoomshroom</defName>
+    <showBubble>true</showBubble>
+    <icon>Things/Mote/ThoughtSymbol/GenericBad</icon>
+    <durationDays>1</durationDays>
+    <stackLimit>5</stackLimit>
+    <stages>
+      <li>
+        <label>ate raw coomshroom</label>
+        <description>I ate a mushroom grown from someone's dirty rags. I feel sick. This is horrible.</description>
+        <baseMoodEffect>-16</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+</Defs>
