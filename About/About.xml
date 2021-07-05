@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
 <packageId>TrahsPanda.Coomshrooms</packageId>
-	<name>Coomshrooms</name>
+	<name>Coomshroom Cultivation</name>
 	<author>TrahsPanda</author>
 	<supportedVersions>
 		<li>1.2</li>
 	</supportedVersions>
-	<description>Commission for Hyo. Adds mushrooms grown from... Coom.</description>	
+	<description>Commission for Hyo. Adds mushrooms grown from a special hydroponics basin called Coomshrooms. Coomshrooms don't require light and have no resting period, and can grow within three days! However, the process of growing them is very dirty and eating Coomshrooms raw can be detrimental to a Pawn's mental health.</description>	
 </ModMetaData>

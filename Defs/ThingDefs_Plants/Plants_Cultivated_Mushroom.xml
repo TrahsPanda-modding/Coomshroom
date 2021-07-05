@@ -49,6 +49,8 @@
         <topWindExposure>0.0</topWindExposure>
         <visualSizeRange>0.3~0.6</visualSizeRange>
         <growMinGlow>0.0</growMinGlow>
+        <soundHarvesting>Harvest_Standard</soundHarvesting>
+        <soundHarvestFinish>Harvest_Standard_Finish</soundHarvestFinish>
     </plant>
   </ThingDef>
 
