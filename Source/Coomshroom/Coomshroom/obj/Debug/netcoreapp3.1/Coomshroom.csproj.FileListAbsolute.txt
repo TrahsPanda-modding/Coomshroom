@@ -1,9 +1,0 @@
-C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Coomshroom\Source\Coomshroom\Coomshroom\bin\Debug\netcoreapp3.1\Coomshroom.deps.json
-C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Coomshroom\Source\Coomshroom\Coomshroom\bin\Debug\netcoreapp3.1\Coomshroom.dll
-C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Coomshroom\Source\Coomshroom\Coomshroom\bin\Debug\netcoreapp3.1\Coomshroom.pdb
-C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Coomshroom\Source\Coomshroom\Coomshroom\obj\Debug\netcoreapp3.1\Coomshroom.AssemblyInfoInputs.cache
-C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Coomshroom\Source\Coomshroom\Coomshroom\obj\Debug\netcoreapp3.1\Coomshroom.AssemblyInfo.cs
-C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Coomshroom\Source\Coomshroom\Coomshroom\obj\Debug\netcoreapp3.1\Coomshroom.csproj.CoreCompileInputs.cache
-C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Coomshroom\Source\Coomshroom\Coomshroom\obj\Debug\netcoreapp3.1\Coomshroom.dll
-C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Coomshroom\Source\Coomshroom\Coomshroom\obj\Debug\netcoreapp3.1\Coomshroom.pdb
-C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Coomshroom\Source\Coomshroom\Coomshroom\obj\Debug\netcoreapp3.1\Coomshroom.csproj.AssemblyReference.cache
